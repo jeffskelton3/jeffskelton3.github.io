@@ -2,20 +2,23 @@
 layout: default
 ---
 
-<div class="home">
+<div id="main" class="container">
+    <div class="row vertical-align">
+        <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
+            <h1>{{ site.title }}</h1>
+            <h3>Software Developer</h3>
+            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a> | {{ site.phone_number }}</p>
+            <ul class="list-unstyled list-inline">
+                {% if site.github_username %}
+                <li>
+                    {% include icon-github.html username=site.github_username %}
+                </li>
+                {% endif %}
 
-    <div>
-        <h1>{{ site.title }}</h1>
-        <h3>Software Developer</h3>
-        <p>Phone: {{ site.phone_number }}</p>
-        <p>Email: {{ site.email }}</p>
-        <ul>
-            {% if site.github_username %}
-            <li>
-                {% include icon-github.html username=site.github_username %}
-            </li>
-            {% endif %}
-        </ul>
+                {% if site.linkedin_username %}
+                    {% include icon-linkedin.html username=site.linkedin_username %}
+                {% endif %}
+            </ul>
+        </div>
     </div>
-
 </div>

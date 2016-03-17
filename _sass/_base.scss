@@ -1,10 +1,14 @@
+html, body{
+    height: 100%;
+}
+
 /**
  * Code formatting
  */
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid #333;
     border-radius: 3px;
     background-color: #eef;
 }
@@ -25,7 +29,6 @@ pre {
 }
 
 
-
 /**
  * Icons
  */
@@ -33,12 +36,32 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 32px;
+        height: 32px;
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: #111;
         }
     }
+
+
+    &.icon--linkedin{
+        > svg {
+            height: 35px;
+            width: 35px;
+        }
+    }
+
+}
+
+#main.container{
+    height: 100%;
+}
+
+.vertical-align {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
 }
