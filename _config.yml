@@ -1,12 +1,14 @@
 # Site settings
-title: Viking Panic Attack
+title: Jeff Skelton
 email: jeff@jeffskelton.net
+phone_number: 323 316 8116
 description: > # this means to ignore newlines until "baseurl:"
   Hopefully adding something useful to the internet.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jeffskelton.net" # the base hostname & protocol for your site
 twitter_username: vikingpanicatk
 github_username:  jeffskelton3
+linkedin_username: jeffskelton
 
 # Build settings
 markdown: kramdown
