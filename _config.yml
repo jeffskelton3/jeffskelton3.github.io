@@ -1,7 +1,7 @@
 # Site settings
 title: Jeff Skelton
 email: jeff@jeffskelton.net
-phone_number: 323 316 8116
+phone_number: (323) 316 8116
 description: > # this means to ignore newlines until "baseurl:"
   Hopefully adding something useful to the internet.
 baseurl: "" # the subpath of your site, e.g. /blog/
