@@ -9,7 +9,8 @@ layout: elegant
         About</h4>
         <div class="card card-nested">
             <div itemprop="description"
-                 class="content mop-wrapper"><p>{{ site.data.resume.basics.summary }}</p>
+                 class="content mop-wrapper"><p>{{
+                site.data.resume.basics.summary }}</p>
             </div>
         </div>
     </div>
@@ -22,14 +23,21 @@ layout: elegant
         <ul class="list-unstyled clear-margin">
             {% for work in site.data.resume.work %}
             <li class="card card-nested clearfix">
-                <div class="content"><p
-                        class="clear-margin relative">
-                    <strong>{{ work.position }}</strong>,&nbsp;<a
-                        href="{{ work.website }}"
-                        target="_blank">{{ work.company }}</a></p>
+                <div class="content">
+                    <p class="clear-margin relative">
+                        <strong>{{ work.position }}</strong>,&nbsp;
+                        {% if work.website %}
+                        <a href="{{ work.website }}"
+                           target="_blank">{{ work.company }}</a>
+                        {% else %}
+                            {{ work.company }}
+                        {% endif %}
+                    </p>
+
                     <p class="text-muted">
                         <small><span class="space-right">{{ work.startDate | date: "%b, %Y" }} - {{ work.endDate | date: "%b, %Y" }}</span><span>
-                            <!--<i class="icon-clock mr-5"></i>--> <!--time span goes here-->
+                            <!--<i class="icon-clock mr-5"></i>-->
+                            <!--time span goes here-->
                         </span>
                         </small>
                     </p>
@@ -54,7 +62,7 @@ layout: elegant
     <div class="info"><h4 class="title text-uppercase">Skills</h4>
         <div class="content">
             <ul class="list-unstyled clear-margin">
-                {% for skill in site.data.resume.skills  %}
+                {% for skill in site.data.resume.skills %}
                 <li class="card card-nested card-skills">
                     <div data-toggle="tooltip"
                          title="{{ skill.level }}"
@@ -87,7 +95,8 @@ layout: elegant
                 {% for reference in site.data.resume.references %}
                 <li class="card card-nested">{{ reference.name }}
                     <blockquote class="quote">
-                        <div class="mop-wrapper"><p>{{ reference.reference }}</p>
+                        <div class="mop-wrapper"><p>{{ reference.reference
+                            }}</p>
                         </div>
                     </blockquote>
                 </li>
