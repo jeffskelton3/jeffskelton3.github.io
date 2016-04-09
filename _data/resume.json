@@ -87,7 +87,7 @@
       "position": "Software Developer",
       "startDate": "2012-01-01",
       "endDate": "2013-03-01",
-      "summary": "SureSale (formerly Mota Motors) provides used automotive dealers a platform to easily inspect and certify their used automotive inventory.",
+      "summary": "SureSale (formerly Mota Motors) provides pre owned automotive dealers a platform to easily inspect and certify their pre owned automotive inventory.",
       "highlights": [
         "Developed inventory management application to quickly import vehicles, schedule inspections, certify qualified vehicles, and generate warranties on the fly",
         "Created a mobile application for our network of inspectors to quickly upload inspection results in the field.",
@@ -100,7 +100,7 @@
       "position": "Systems Administrator/Software Developer",
       "startDate": "2008-05-01",
       "endDate": "2012-01-01",
-      "summary": "Mota Motors was an online used automotive marketplace with a focus on the private party space.",
+      "summary": "Mota Motors was an online pre owned automotive marketplace with a focus on the private party space.",
       "highlights": [
         "Designed and built a online dashboard that enabled sellers to manage their a listing on all major marketplaces.",
         "Created a set of backend integrations that allowed connections to 3rd party marketplaces",
