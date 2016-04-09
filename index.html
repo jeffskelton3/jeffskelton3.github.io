@@ -1,32 +1,324 @@
 ---
-layout: default
+layout: elegant
 ---
 
-<div id="main" class="container">
-    <div class="row vertical-align">
-        <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
-            <h1>{{ site.title }}</h1>
-            <h3>Software Developer</h3>
-            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a> | {{ site.phone_number }}</p>
-            <ul class="list-unstyled list-inline">
-                {% if site.github_username %}
-                <li>
-                    {% include icon-github.html username=site.github_username %}
+<div id="about" class="detail">
+    <div class="icon"><i class="fs-lg icon-board"></i><span
+            class="mobile-title">About</span></div>
+    <div class="info"><h4 class="title text-uppercase">
+        About</h4>
+        <div class="card card-nested">
+            <div itemprop="description"
+                 class="content mop-wrapper"><p>Jeff is a
+                creative and professional developer with
+                over 9 years in the field. Skilled in all
+                phases of the software development
+                lifecycle, he writes clean, readable,
+                testable code, and adheres to DRY
+                principles. Jeff has experience with many
+                languages including PHP and C#, but is most
+                passionate about JavaScript and NodeJS. He
+                uses his excellent written and oral
+                communication skills to mentor others in his
+                spare time.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="work-experience" class="detail">
+    <div class="icon"><i class="fs-lg icon-office"></i><span
+            class="mobile-title">Work Experience</span>
+    </div>
+    <div class="info"><h4 class="title text-uppercase">Work
+        Experience</h4>
+        <ul class="list-unstyled clear-margin">
+            <li class="card card-nested clearfix">
+                <div class="content"><p
+                        class="clear-margin relative">
+                    <strong>Software Developer</strong>,&nbsp;<a
+                        href="https://ayo.co"
+                        target="_blank">AYO Inc</a></p>
+                    <p class="text-muted">
+                        <small><span class="space-right">Jul, 2015 - Apr, 2016</span><span><i
+                                class="icon-clock mr-5"></i>9 months</span>
+                        </small>
+                    </p>
+                    <div class="mop-wrapper space-bottom">
+                        <p>AYO is a communication platform
+                            that enables fans to request
+                            personalized videos from their
+                            favorite celebrities.</p>
+                    </div>
+                    <ul>
+                        <li class="mop-wrapper"><p>Part of a
+                            collaborative Agile development
+                            team supporting mission-critical
+                            web applications and business
+                            solutions.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Identify
+                            and create solutions to
+                            technical challenges from
+                            product requirements.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Identify
+                            and create solutions to
+                            technical challenges from
+                            product requirements.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Designed
+                            and built a RESTful API backend
+                            using NodeJS, SailsJS, and
+                            MongoDB allowing for connections
+                            to e-commerce storefronts, admin
+                            panels, and 3rd party
+                            integrations.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Created a
+                            video transcoding application
+                            using Amazon SQS, NodeJS, and
+                            ffmpeg to normalize format and
+                            adding branding to uploaded
+                            videos.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>
+                            Architected a build server and
+                            deployment solution using
+                            TeamCity and Amazon Elastic
+                            Beanstalk, enabling the team to
+                            safely deploy and/or rollback
+                            staging or production builds in
+                            minutes.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Created a
+                            suite of integration and unit
+                            tests for all business critical
+                            applications.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Build
+                            rapid prototypes for new
+                            business ideas.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Research
+                            and integrate design strategies,
+                            product specifications,
+                            development schedules, and user
+                            expectations into product
+                            capabilities.</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="card card-nested clearfix">
+                <div class="content"><p
+                        class="clear-margin relative">
+                    <strong>Software Developer</strong>,&nbsp;<a
+                        href="http://soundminer.com/"
+                        target="_blank">Soundminer</a></p>
+                    <p class="text-muted">
+                        <small><span class="space-right">Feb, 2013 - Jul, 2015</span><span><i
+                                class="icon-clock mr-5"></i>2 years 5 months</span>
+                        </small>
+                    </p>
+                    <div class="mop-wrapper space-bottom">
+                        <p>Soundminer is a music search
+                            engine targeting publishers,
+                            music libraries, and
+                            songwriters. Soundminer clients
+                            include Warner Chappell, Sony
+                            Music, and Disney.</p>
+                    </div>
+                    <ul>
+                        <li class="mop-wrapper"><p>Part of a
+                            globally distributed team
+                            responsible for improving and
+                            maintaining a web based version
+                            of the native application.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Client
+                            installations, upgrades, and
+                            support.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Design
+                            and build a mobile friendly,
+                            JavaScript based SPA client
+                            using AngularJS.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>
+                            Responsible for managing and
+                            maintaining client installations
+                            and business applications hosted
+                            at Soundminer’s own
+                            datacenter.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Git
+                            management</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Implement
+                            customized themes to match
+                            client branding and/or custom
+                            design requests.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Designed
+                            automation scripts and
+                            documentation which allowed for
+                            a drastic reduction in
+                            installation/upgrade times and
+                            support requests.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Migrated
+                            all source code off of
+                            Subversion and onto git with
+                            zero loss of commit history and
+                            metadata.</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="card card-nested clearfix">
+                <div class="content"><p
+                        class="clear-margin relative">
+                    <strong>Software Developer</strong>,&nbsp;<a
+                        href="http://vyclone.com/"
+                        target="_blank">Vyclone Inc</a></p>
+                    <p class="text-muted">
+                        <small><span class="space-right">Jan, 2014 - Nov, 2015</span><span><i
+                                class="icon-clock mr-5"></i>1 year 10 months</span>
+                        </small>
+                    </p>
+                    <div class="mop-wrapper space-bottom">
+                        <p>Vyclone is a groundbreaking video
+                            collaboration app available on
+                            iOS, Android, and Windows Phone.
+                            It allows users to automatically
+                            create multi-angle movies with
+                            videos shot from multiple
+                            sources.</p>
+                    </div>
+                    <ul>
+                        <li class="mop-wrapper"><p>
+                            Responsible for maintaining all
+                            web based products including the
+                            main site, Vyclone.com as well
+                            as implementing new features as
+                            they are requested.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Part of a
+                            team rebuilding a suite of tools
+                            that allow brands and consumers
+                            alike to more easily leverage
+                            the core product and bring
+                            people together to use it.</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="card card-nested clearfix">
+                <div class="content"><p
+                        class="clear-margin relative">
+                    <strong></strong>,&nbsp;<a
+                        href="https://www.suresale.com/"
+                        target="_blank">SureSale</a></p>
+                    <p class="text-muted">
+                        <small><span class="space-right">Jan, 2012 - Mar, 2013</span><span><i
+                                class="icon-clock mr-5"></i>1 year 2 months</span>
+                        </small>
+                    </p>
+                    <div class="mop-wrapper space-bottom">
+                        <p>SureSale</p>
+                    </div>
+                    <ul>
+                        <li class="mop-wrapper"><p>Developed
+                            a web-based inventory management
+                            application for used automotive
+                            dealerships. Dealers who sign up
+                            for an account are able to use
+                            this application to certify
+                            eligible vehicles in their
+                            inventory and generate extended
+                            warranties at time of sale.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Created a
+                            web-based, responsive mobile
+                            inspection application for our
+                            network of inspectors.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Part of a
+                            team that created an API for our
+                            mobile inspection
+                            applications.</p>
+                        </li>
+                        <li class="mop-wrapper"><p>Part of a
+                            team that built out a system of
+                            “lite” accounts that would
+                            automatically import a dealer’s
+                            inventory from an outside feed
+                            and prompt the dealer to sign up
+                            to certify those vehicles.</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="skills" class="detail">
+    <div class="icon"><i class="fs-lg icon-tools"></i><span
+            class="mobile-title">Skills</span></div>
+    <div class="info"><h4 class="title text-uppercase">
+        Skills</h4>
+        <div class="content">
+            <ul class="list-unstyled clear-margin">
+                <li class="card card-nested card-skills">
+                    <div data-toggle="tooltip"
+                         title="Master"
+                         data-placement="left"
+                         class="skill-level">
+                        <div class="skill-progress master"></div>
+                    </div>
+                    <div class="skill-info"><strong>Languages</strong>
+                        <div class="space-top labels"><span
+                                class="label label-keyword">JavaScript</span><span
+                                class="label label-keyword">PHP</span><span
+                                class="label label-keyword">C#</span>
+                        </div>
+                    </div>
                 </li>
-                {% endif %}
-
-                {% if site.twitter_username %}
-                <li>
-                    {% include icon-twitter.html username=site.twitter_username %}
+                <li class="card card-nested card-skills">
+                    <div data-toggle="tooltip"
+                         title="Master"
+                         data-placement="left"
+                         class="skill-level">
+                        <div class="skill-progress master"></div>
+                    </div>
+                    <div class="skill-info"><strong>JavaScript</strong>
+                        <div class="space-top labels"><span
+                                class="label label-keyword">AngularJS</span><span
+                                class="label label-keyword">jQuery</span><span
+                                class="label label-keyword">ES2015</span><span
+                                class="label label-keyword">MooTools</span><span
+                                class="label label-keyword">TypeScript</span>
+                        </div>
+                    </div>
                 </li>
-                {% endif %}
-
-                {% if site.linkedin_username %}
-                <li>
-                    {% include icon-linkedin.html username=site.linkedin_username %}
+                <li class="card card-nested card-skills">
+                    <div data-toggle="tooltip"
+                         title="Master"
+                         data-placement="left"
+                         class="skill-level">
+                        <div class="skill-progress master"></div>
+                    </div>
+                    <div class="skill-info">
+                        <strong>NodeJS</strong>
+                        <div class="space-top labels"><span
+                                class="label label-keyword">Express</span><span
+                                class="label label-keyword">AdonisJS</span><span
+                                class="label label-keyword">NodeJS</span><span
+                                class="label label-keyword">NPM</span><span
+                                class="label label-keyword">Babel</span>
+                        </div>
+                    </div>
                 </li>
-                {% endif %}
-
             </ul>
         </div>
     </div>

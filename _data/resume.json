@@ -43,7 +43,6 @@
       "highlights": [
         "Part of a collaborative Agile development team supporting mission-critical web applications and business solutions.",
         "Identify and create solutions to technical challenges from product requirements.",
-        "Identify and create solutions to technical challenges from product requirements.",
         "Designed and built a RESTful API backend using NodeJS, SailsJS, and MongoDB allowing for connections to e-commerce storefronts, admin panels, and 3rd party integrations.",
         "Created a video transcoding application using Amazon SQS, NodeJS, and ffmpeg to normalize format and adding branding to uploaded videos.",
         "Architected a build server and deployment solution using TeamCity and Amazon Elastic Beanstalk, enabling the team to safely deploy and/or rollback staging or production builds in minutes.",
