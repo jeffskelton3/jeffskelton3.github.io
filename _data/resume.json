@@ -175,7 +175,10 @@
       "level": "Advanced",
       "keywords": [
         "Apache",
-        "Unix"
+        "Unix",
+        "CentOS",
+        "Ubuntu",
+        "GNOME"
       ]
     }
   ],
