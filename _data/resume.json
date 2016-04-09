@@ -52,7 +52,7 @@
       ]
     },
     {
-      "company": "Soundminer",
+      "company": "Soundminer Inc.",
       "position": "Software Developer",
       "website": "http://soundminer.com/",
       "startDate": "2013-02-01",
@@ -82,17 +82,29 @@
       ]
     },
     {
-      "company" : "SureSale",
-      "website" : "https://www.suresale.com/",
-      "position" : "Software Developer",
+      "company": "SureSale Inc",
+      "website": "https://www.suresale.com/",
+      "position": "Software Developer",
       "startDate": "2012-01-01",
       "endDate": "2013-03-01",
-      "summary" : "SureSale",
+      "summary": "SureSale (formerly Mota Motors) provides used automotive dealers a platform to easily inspect and certify their used automotive inventory.",
       "highlights": [
-        "Developed a web-based inventory management application for used automotive dealerships. Dealers who sign up for an account are able to use this application to certify eligible vehicles in their inventory and generate extended warranties at time of sale.",
-        "Created a web-based, responsive mobile inspection application for our network of inspectors.",
+        "Developed inventory management application to quickly import vehicles, schedule inspections, certify qualified vehicles, and generate warranties on the fly",
+        "Created a mobile application for our network of inspectors to quickly upload inspection results in the field.",
         "Part of a team that created an API for our mobile inspection applications.",
-        "Part of a team that built out a system of “lite” accounts that would automatically import a dealer’s inventory from an outside feed and prompt the dealer to sign up to certify those vehicles."
+        "Designed a system of “lite” accounts that would automatically import a dealer’s inventory from an set of external feeds and prompt the dealer to sign up to certify those vehicles."
+      ]
+    },
+    {
+      "company": "Mota Motors Inc",
+      "position": "Systems Administrator/Software Developer",
+      "startDate": "2008-05-01",
+      "endDate": "2012-01-01",
+      "summary": "Mota Motors was an online used automotive marketplace with a focus on the private party space.",
+      "highlights": [
+        "Designed and built a online dashboard that enabled sellers to manage their a listing on all major marketplaces.",
+        "Created a set of backend integrations that allowed connections to 3rd party marketplaces",
+        "Designed, built, and maintained a custom off site data center which housed our production infrastructure."
       ]
     }
   ],
@@ -102,38 +114,81 @@
   "publications": [],
   "skills": [
     {
-      "name" : "Languages",
-      "level" : "Master",
-      "keywords" : [
-        "JavaScript",
-        "PHP",
-        "C#"
-      ]
-    },
-    {
-      "name" : "JavaScript",
-      "level" : "Master",
-      "keywords" : [
-        "AngularJS",
-        "jQuery",
-        "ES2015",
-        "MooTools",
-        "TypeScript"
-      ]
-    },
-    {
-      "name": "NodeJS",
+      "name": "Web Development",
       "level": "Master",
       "keywords": [
+        "NodeJS",
+        "AngularJS",
+        "jQuery",
+        "HTML5",
+        "CSS3",
+        "Sass",
+        "LESS",
+        "ES2015",
+        "MooTools",
+        "TypeScript",
+        "EmberJS",
+        "Babel",
         "Express",
         "AdonisJS",
-        "NodeJS",
         "NPM",
-        "Babel"
+        "C#",
+        "PHP"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Advanced",
+      "keywords": [
+        "Docker",
+        "TeamCity",
+        "Chef",
+        "Puppet",
+        "Vagrant"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Advanced",
+      "keywords": [
+        "MongoDB",
+        "MySQL",
+        "CouchDB",
+        "MariaDB",
+        "SQL Server"
+      ]
+    },
+    {
+      "name": "Amazon Web Services",
+      "level": "Advanced",
+      "keywords": [
+        "EC2",
+        "S3",
+        "Elastic Beanstalk",
+        "SQS",
+        "CloudFront",
+        "ElastiCache"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Advanced",
+      "keywords": [
+        "Apache",
+        "Unix"
       ]
     }
   ],
   "languages": [],
   "interests": [],
-  "references": []
+  "references": [
+    {
+      "name": "Christopher Hartman",
+      "reference": "Jeff is own of those guys that just love their work and it shows in every interaction. Jeff thrives on learning something new every day and is always looking to improve the products he builds. I look forward to working with Jeff again in the future."
+    },
+    {
+      "name" : "Wendy Halson",
+      "reference" : "Jeff is a tremendously capable developer who is adept at picking up new technologies quickly and thinking creatively to create elegant solutions for complex problems. I've had the pleasure of witnessing Jeff thrive in a fast paced start-up environment where a lot was demanded of him and he was required to wear many hats. He is an excellent team member who maintains a positive attitude even under intense pressure. He understands the importance of time / resource management and can rapidly adjust or re-prioritize based on changing needs or business implications. His level of personal accountability for his work and the dedication and commitment he consistently demonstrates has been recognized and appreciated by everyone fortunate enough to work with him."
+    }
+  ]
 }
