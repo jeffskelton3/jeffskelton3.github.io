@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-<body itemscope="itemscope" itemtype="http://schema.org/Person" class="theme-elegant">
+<body itemscope="itemscope" itemtype="http://schema.org/Person"
+      class="theme-elegant">
 <div class="container-fluid">
     <div class="row main clearfix">
         {% include elegant/floating-nav.html %}
@@ -22,31 +23,38 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script>
     $(function () {
-        var toggleFloatingMenu = function () {
-            $('.js-floating-nav').toggleClass('is-visible');
-            $('.js-floating-nav-trigger').toggleClass('is-open');
-        };
+        (function () {
+            'use strict';
 
-        $(".background-card").css("min-height", window.screen.availHeight + "px");
-        $("[data-toggle=tooltip]").tooltip();
-        $('.js-floating-nav-trigger').on('click', function (e) {
-            e.preventDefault();
-            toggleFloatingMenu();
-        });
-        $('.js-floating-nav a').on('click', toggleFloatingMenu);
+            function toggleFloatingMenu() {
+                $('.js-floating-nav').toggleClass('is-visible');
+                $('.js-floating-nav-trigger').toggleClass('is-open');
 
-        $("#remaining-profiles").on('show.bs.collapse', function () {
-            $('.js-profiles-collapse > i')
-                    .removeClass('icon-chevron-down')
-                    .addClass('icon-chevron-up');
-        });
+            };
 
-        $("#remaining-profiles").on('hidden.bs.collapse', function () {
-            $('.js-profiles-collapse > i')
-                    .removeClass('icon-chevron-up')
-                    .addClass('icon-chevron-down');
-        });
-});
+            $('.js-floating-nav-trigger').on('click', function (e) {
+                e.preventDefault();
+                toggleFloatingMenu();
+            });
+            $('.js-floating-nav a').on('click', toggleFloatingMenu);
+
+            $(".background-card").css("min-height", window.screen.availHeight + "px");
+
+            $("#remaining-profiles").on('show.bs.collapse', function () {
+                $('.js-profiles-collapse > i')
+                        .removeClass('icon-chevron-down')
+                        .addClass('icon-chevron-up');
+            });
+
+            $("#remaining-profiles").on('hidden.bs.collapse', function () {
+                $('.js-profiles-collapse > i')
+                        .removeClass('icon-chevron-up')
+                        .addClass('icon-chevron-down');
+            });
+
+            $("[data-toggle=tooltip]").tooltip();
+        }())
+    });
 </script>
 <script>WebFontConfig = {
     google: {families: ['Lato:300,400,700:latin']}
