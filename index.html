@@ -9,8 +9,7 @@ layout: elegant
         About</h4>
         <div class="card card-nested">
             <div itemprop="description"
-                 class="content mop-wrapper"><p>{{
-                site.data.resume.basics.summary }}</p>
+                 class="content mop-wrapper"><p>{{ site.data.resume.basics.summary }}</p>
             </div>
         </div>
     </div>
@@ -95,8 +94,7 @@ layout: elegant
                 {% for reference in site.data.resume.references %}
                 <li class="card card-nested">{{ reference.name }}
                     <blockquote class="quote">
-                        <div class="mop-wrapper"><p>{{ reference.reference
-                            }}</p>
+                        <div class="mop-wrapper"><p>{{ reference.reference }}</p>
                         </div>
                     </blockquote>
                 </li>
