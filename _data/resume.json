@@ -63,10 +63,9 @@
         "Client installations, upgrades, and support.",
         "Design and build a mobile friendly, JavaScript based SPA client using AngularJS.",
         "Responsible for managing and maintaining client installations and business applications hosted at Soundminer’s own datacenter.",
-        "Git management",
         "Implement customized themes to match client branding and/or custom design requests.",
         "Designed automation scripts and documentation which allowed for a drastic reduction in installation/upgrade times and support requests.",
-        "Migrated all source code off of Subversion and onto git with zero loss of commit history and metadata."
+        "Migrated all source code off of Subversion and onto Git with zero loss of commit history and metadata."
       ]
     },
     {
@@ -117,23 +116,69 @@
       "name": "Web Development",
       "level": "Master",
       "keywords": [
-        "NodeJS",
-        "AngularJS",
-        "jQuery",
+        "JavaScript",
         "HTML5",
         "CSS3",
-        "Sass",
-        "LESS",
+        "Sass/LESS",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "NodeJS",
+        "AngularJS",
+        "NPM",
+        "Gulp",
+        "Grunt",
+        "Express",
+        "AdonisJS",
+        "HapiJS",
+        "Yeoman",
+        "jQuery",
         "ES2015",
         "MooTools",
         "TypeScript",
         "EmberJS",
         "Babel",
-        "Express",
-        "AdonisJS",
-        "NPM",
+        "ReactJS"
+      ]
+    },
+    {
+      "name": "Source Control",
+      "level" : "Master",
+      "keywords" : [
+        "Git",
+        "Github",
+        "BitBucket",
+        "Subversion",
+        "Perforce"
+      ]
+    },
+    {
+      "name": "Interpreted Languages",
+      "level": "Intermediate",
+      "keywords": [
+        "Python",
+        "Django",
+        "PHP",
+        "Laravel",
+        "Symphony",
+        "Elixr",
+        "Phoenix",
+        "Ruby",
+        "Ruby On Rails"
+      ]
+    },
+    {
+      "name": "Compiled Languages",
+      "level": "Intermediate",
+      "keywords": [
         "C#",
-        "PHP"
+        "Rust",
+        "Java",
+        "Swift"
       ]
     },
     {
@@ -155,34 +200,57 @@
         "MySQL",
         "CouchDB",
         "MariaDB",
-        "SQL Server"
+        "SQL Server",
+        "Waterline",
+        "Mongoose",
+        "ORM"
       ]
     },
     {
-      "name": "Amazon Web Services",
+      "name": "Cloud",
       "level": "Advanced",
       "keywords": [
+        "Amazon Web Services",
         "EC2",
         "S3",
         "Elastic Beanstalk",
         "SQS",
         "CloudFront",
-        "ElastiCache"
+        "ElastiCache",
+        "Heroku"
       ]
     },
     {
-      "name": "Linux",
+      "name": "System Administration",
       "level": "Advanced",
       "keywords": [
         "Apache",
+        "NGINX",
         "Unix",
         "CentOS",
         "Ubuntu",
-        "GNOME"
+        "Fedora",
+        "Red Hat",
+        "DNS",
+        "Terminal"
+      ]
+    },
+    {
+      "name" : "Project Management",
+      "level" : "Intermediate",
+      "keywords" : [
+        "Agile",
+        "SCRUM",
+        "Trello"
       ]
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Native speaker"
+    }
+  ],
   "interests": [],
   "references": [
     {
@@ -190,8 +258,8 @@
       "reference": "Jeff is own of those guys that just love their work and it shows in every interaction. Jeff thrives on learning something new every day and is always looking to improve the products he builds. I look forward to working with Jeff again in the future."
     },
     {
-      "name" : "Wendy Halson",
-      "reference" : "Jeff is a tremendously capable developer who is adept at picking up new technologies quickly and thinking creatively to create elegant solutions for complex problems. I've had the pleasure of witnessing Jeff thrive in a fast paced start-up environment where a lot was demanded of him and he was required to wear many hats. He is an excellent team member who maintains a positive attitude even under intense pressure. He understands the importance of time / resource management and can rapidly adjust or re-prioritize based on changing needs or business implications. His level of personal accountability for his work and the dedication and commitment he consistently demonstrates has been recognized and appreciated by everyone fortunate enough to work with him."
+      "name": "Wendy Halson",
+      "reference": "Jeff is a tremendously capable developer who is adept at picking up new technologies quickly and thinking creatively to create elegant solutions for complex problems. I've had the pleasure of witnessing Jeff thrive in a fast paced start-up environment where a lot was demanded of him and he was required to wear many hats. He is an excellent team member who maintains a positive attitude even under intense pressure. He understands the importance of time / resource management and can rapidly adjust or re-prioritize based on changing needs or business implications. His level of personal accountability for his work and the dedication and commitment he consistently demonstrates has been recognized and appreciated by everyone fortunate enough to work with him."
     }
   ]
 }
