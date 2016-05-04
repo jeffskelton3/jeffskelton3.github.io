@@ -35,13 +35,13 @@
   "work": [
     {
       "company": "AYO Inc",
-      "position": "Software Developer",
+      "position": "Lead Software Developer",
       "website": "https://ayo.co",
       "startDate": "2015-07-01",
-      "endDate": "2016-04-01",
+      "endDate": "2016-05-01",
       "summary": "AYO is a communication platform that enables fans to request personalized videos from their favorite celebrities.",
       "highlights": [
-        "Part of a collaborative Agile development team supporting mission-critical web applications and business solutions.",
+        "Part of a collaborative agile development team supporting mission-critical web applications and business solutions.",
         "Identify and create solutions to technical challenges from product requirements.",
         "Designed and built a RESTful API backend using NodeJS, SailsJS, and MongoDB allowing for connections to e-commerce storefronts, admin panels, and 3rd party integrations.",
         "Created a video transcoding application using Amazon SQS, NodeJS, and ffmpeg to normalize format and add branding to uploaded videos.",
@@ -83,27 +83,21 @@
     {
       "company": "SureSale Inc",
       "website": "https://www.suresale.com/",
-      "position": "Software Developer",
-      "startDate": "2012-01-01",
-      "endDate": "2013-03-01",
-      "summary": "SureSale (formerly Mota Motors) provides pre owned automotive dealers a platform to easily inspect and certify their pre owned automotive inventory.",
+      "position": "Systems Administrator/Junior Software Developer",
+      "startDate": "2008-01-01",
+      "endDate": "2013-11-01",
+      "summary": "SureSale (formerly Mota Motors) started as an online automotive marketplace with a focus on private party sellers. In January of 2012 they pivoted to a platform that provides pre owned automotive dealers a way to easily inspect and certify their inventory.",
       "highlights": [
         "Developed inventory management application to quickly import vehicles, schedule inspections, certify qualified vehicles, and generate warranties on the fly",
         "Created a mobile application for our network of inspectors to quickly upload inspection results in the field.",
         "Part of a team that created an API for our mobile inspection applications.",
-        "Designed a system of “lite” accounts that would automatically import a dealer’s inventory from an set of external feeds and prompt the dealer to sign up to certify those vehicles."
-      ]
-    },
-    {
-      "company": "Mota Motors Inc",
-      "position": "Systems Administrator/Software Developer",
-      "startDate": "2008-05-01",
-      "endDate": "2012-01-01",
-      "summary": "Mota Motors was an online pre owned automotive marketplace with a focus on the private party space.",
-      "highlights": [
+        "Designed a system of “lite” accounts that would automatically import a dealer’s inventory from an set of external feeds and prompt the dealer to sign up to certify those vehicles.",
         "Designed and built a online dashboard that enabled sellers to manage their a listing on all major marketplaces.",
         "Created a set of backend integrations that allowed connections to 3rd party marketplaces",
-        "Designed, built, and maintained a custom off site data center which housed our production infrastructure."
+        "Designed, built, and maintained a custom off site data center which housed our production infrastructure.",
+        "Developed inventory management application to quickly import vehicles, schedule inspections, certify qualified vehicles, and generate warranties on the fly",
+        "Created a mobile application for our network of inspectors to upload inspection results in the field.",
+        "Designed a system of “lite” accounts that would automatically import a dealer’s inventory from an set of external feeds and prompt the dealer to sign up to certify those vehicles."
       ]
     }
   ],
@@ -116,80 +110,27 @@
       "name": "Web Development",
       "level": "Master",
       "keywords": [
+        "NodeJS",
         "JavaScript",
         "HTML5",
         "CSS3",
-        "Sass/LESS",
-        "Bootstrap"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "NodeJS",
         "AngularJS",
         "NPM",
-        "Gulp",
-        "Grunt",
         "Express",
-        "AdonisJS",
-        "HapiJS",
-        "Yeoman",
         "jQuery",
         "ES2015",
-        "MooTools",
-        "TypeScript",
-        "EmberJS",
-        "Babel",
-        "ReactJS"
-      ]
-    },
-    {
-      "name": "Source Control",
-      "level" : "Master",
-      "keywords" : [
         "Git",
-        "Github",
-        "BitBucket",
-        "Subversion",
-        "Perforce"
-      ]
-    },
-    {
-      "name": "Interpreted Languages",
-      "level": "Intermediate",
-      "keywords": [
-        "Python",
-        "Django",
-        "PHP",
-        "Laravel",
-        "Symphony",
-        "Elixr",
-        "Phoenix",
-        "Ruby",
-        "Ruby On Rails"
-      ]
-    },
-    {
-      "name": "Compiled Languages",
-      "level": "Intermediate",
-      "keywords": [
-        "C#",
-        "Rust",
-        "Java",
-        "Swift"
-      ]
-    },
-    {
-      "name": "DevOps",
-      "level": "Advanced",
-      "keywords": [
         "Docker",
-        "TeamCity",
-        "Chef",
-        "Puppet",
-        "Vagrant"
+        "Unix",
+        "Linux",
+        "PHP",
+        "Python",
+        "Ruby",
+        "C#",
+        ".NET",
+        "MVC",
+        "Apache",
+        "LAMP"
       ]
     },
     {
@@ -198,12 +139,8 @@
       "keywords": [
         "MongoDB",
         "MySQL",
-        "CouchDB",
         "MariaDB",
-        "SQL Server",
-        "Waterline",
-        "Mongoose",
-        "ORM"
+        "SQL Server"
       ]
     },
     {
@@ -211,38 +148,18 @@
       "level": "Advanced",
       "keywords": [
         "Amazon Web Services",
-        "EC2",
-        "S3",
-        "Elastic Beanstalk",
-        "SQS",
         "CloudFront",
-        "ElastiCache",
         "Heroku"
       ]
     },
     {
-      "name": "Systems Administration",
-      "level": "Advanced",
+      "name": "Media",
+      "level": "Intermediate",
       "keywords": [
-        "Apache",
-        "NGINX",
-        "Unix",
-        "CentOS",
-        "Ubuntu",
-        "Fedora",
-        "Red Hat",
-        "DNS",
-        "Terminal"
-      ]
-    },
-    {
-      "name" : "Project Management",
-      "level" : "Intermediate",
-      "keywords" : [
-        "Agile",
-        "SCRUM",
-        "Trello",
-        "SOW"
+        "Streaming",
+        "Video",
+        "Audio",
+        "ffmpeg"
       ]
     }
   ],
