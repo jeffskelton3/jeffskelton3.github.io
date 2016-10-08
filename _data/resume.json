@@ -17,7 +17,7 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "vikingpanicatk",
+        "username": "skeltron5000",
         "url": "http://twitter.com/vikingpanicatk"
       },
       {
@@ -110,23 +110,22 @@
       "name": "Web Development",
       "level": "Master",
       "keywords": [
+        "Elixir",
         "NodeJS",
         "JavaScript",
-        "HTML5",
-        "CSS3",
         "AngularJS",
         "ReactJS",
-        "NPM",
+        "HTML5",
+        "CSS3",
         "Express",
         "jQuery",
         "ES2015",
-        "Elixir",
         "Git",
         "Docker",
         "Unix",
         "Linux",
-        "PHP",
         "C#",
+        "PHP",
         ".NET",
         "Apache"
       ]
