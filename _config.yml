@@ -12,5 +12,5 @@ linkedin_username: jeffskelton
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
