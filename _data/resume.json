@@ -43,7 +43,7 @@
       "highlights": [
         "Part of a team responsible for building and maintaining a suite of RESTful API endpoints using Elixir, Phoenix, and PostgresSQL.",                
         "Helped design and implement a playlist import tool that matched songs in a users playlist to those in other streaming services.",
-        "Built a real-time, websocket based, messaging feature used in our iOS client.",
+        "Built a real-time, websocket based, messaging feature used in the iOS client.",
         "Created an invitation system that placed users into a queue. Administrators could then allow them onto the platform in small, scaleable, intervals",
         "Designed and built a playlist recommendation system using AWS Lambda and Cloudwatch."
       ]
