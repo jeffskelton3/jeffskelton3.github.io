@@ -44,7 +44,7 @@
         "Part of a team responsible for building and maintaining a suite of RESTful API endpoints using Elixir, Phoenix, and PostgresSQL.",                
         "Helped design and implement a playlist import tool that matched songs in a users playlist to those in other streaming services.",
         "Built a real-time, websocket based, messaging feature used in the iOS client.",
-        "Created an invitation system that placed users into a queue. Administrators could then allow them onto the platform in small, scaleable, intervals",
+        "Created an invitation system that placed users into a queue. Administrators could then allow them onto the platform in small, scaleable, intervals.",
         "Designed and built a playlist recommendation system using AWS Lambda and Cloudwatch."
       ]
     },
@@ -56,8 +56,8 @@
       "endDate": "present",
       "summary": "In the spring of 2016, AYO pivoted to became HILITE. HILITE is a platform for businesses and brands to collect, curate, and share user generated video content (UGVC).",
       "highlights": [
-        "Re-purposed a legacy e-commerce based api to support the new business model",
-        "Created a suite of api endpoints specifically designed for easy 3rd party integrations with strategic partners and brands",
+        "Re-purposed a legacy e-commerce based api to support the new business model.",
+        "Created a suite of api endpoints specifically designed for easy 3rd party integrations with strategic partners and brands.",
         "Designed and implemented a ReactJS and Redux based administrator dashboard. Through this tool, brands can create campaigns, curate content, and share that content to social media.",
         "Created a video transcoding application using Amazon SQS, NodeJS, and ffmpeg to normalize format and add custom branding to uploaded videos."
       ]
@@ -116,14 +116,14 @@
       "endDate": "2013-11-01",
       "summary": "SureSale (formerly Mota Motors) started as an online automotive marketplace with a focus on private party sellers. In January of 2012 they pivoted to a platform that provides pre owned automotive dealers a way to easily inspect and certify their inventory.",
       "highlights": [
-        "Developed inventory management application to quickly import vehicles, schedule inspections, certify qualified vehicles, and generate warranties on the fly",
+        "Developed inventory management application to quickly import vehicles, schedule inspections, certify qualified vehicles, and generate warranties on the fly.",
         "Created a mobile application for our network of inspectors to quickly upload inspection results in the field.",
         "Part of a team that created an API for our mobile inspection applications.",
         "Designed a system of “lite” accounts that would automatically import a dealer’s inventory from an set of external feeds and prompt the dealer to sign up to certify those vehicles.",
         "Designed and built a online dashboard that enabled sellers to manage their a listing on all major marketplaces.",
-        "Created a set of backend integrations that allowed connections to 3rd party marketplaces",
+        "Created a set of backend integrations that allowed connections to 3rd party marketplaces.",
         "Designed, built, and maintained a custom off site data center which housed our production infrastructure.",
-        "Developed inventory management application to quickly import vehicles, schedule inspections, certify qualified vehicles, and generate warranties on the fly",
+        "Developed inventory management application to quickly import vehicles, schedule inspections, certify qualified vehicles, and generate warranties on the fly.",
         "Created a mobile application for our network of inspectors to upload inspection results in the field.",
         "Designed a system of “lite” accounts that would automatically import a dealer’s inventory from an set of external feeds and prompt the dealer to sign up to certify those vehicles."
       ]
