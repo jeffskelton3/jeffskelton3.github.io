@@ -6,7 +6,7 @@
     "email": "jeff@jeffskelton.net",
     "phone": "(323) 316-8116",
     "website": "http://jeffskelton.net",
-    "summary": "Jeff is a creative and professional developer with over 9 years in the field. Skilled in all phases of the software development lifecycle, he writes clean, readable, testable code and adheres to DRY principles. Jeff has experience with many languages, including PHP and C#, but is most passionate about JavaScript and NodeJS. He uses his excellent written and oral communication skills to mentor others in his spare time.",
+    "summary": "Jeff is a creative and professional developer with over 9 years in the field. Skilled in all phases of the software development lifecycle, he writes clean, readable, testable code and adheres to DRY principles. Jeff has experience with many languages, including Elixir, PHP, and C#, but is most passionate about JavaScript and NodeJS. He uses his excellent written and oral communication skills to mentor others in his spare time.",
     "location": {
       "address": "635 N Rosemary Ln",
       "postalCode": "CA 91505",
@@ -34,6 +34,35 @@
   },
   "work": [
     {
+      "company": "Spinlist Inc",
+      "position": "Software Developer (contract)",
+      "website": "https://beta.spinlist.fm",
+      "startDate": "2016-05-01",
+      "endDate": "present",
+      "summary": "Spinlist is a music streaming app that allows users to discover, create, and share playlists across any streaming service.",
+      "highlights": [
+        "Part of a team responsible for building and maintaining a suite of RESTful API endpoints using Elixir, Phoenix, and PostgresSQL.",                
+        "Helped design and implement a playlist import tool that matched songs in a users playlist to those in other streaming services.",
+        "Built a real-time, websocket based, messaging feature used in our iOS client.",
+        "Created an invitation system that placed users into a queue. Administrators could then allow them onto the platform in small, scaleable, intervals",
+        "Designed and built a playlist recommendation system using AWS Lambda and Cloudwatch."
+      ]
+    },
+    {
+      "company": "HILITE",
+      "position": "Software Developer (contract)",
+      "website": "http://hilite.media",
+      "startDate": "2016-05-01",
+      "endDate": "present",
+      "summary": "In the spring of 2016, AYO pivoted to became HILITE. HILITE is a platform for businesses and brands to collect, curate, and share user generated video content (UGVC).",
+      "highlights": [
+        "Re-purposed a legacy e-commerce based api to support the new business model",
+        "Created a suite of api endpoints specifically designed for easy 3rd party integrations with strategic partners and brands",
+        "Designed and implemented a ReactJS and Redux based administrator dashboard. Through this tool, brands can create campaigns, curate content, and share that content to social media.",
+        "Created a video transcoding application using Amazon SQS, NodeJS, and ffmpeg to normalize format and add custom branding to uploaded videos."
+      ]
+    },
+    {
       "company": "AYO Inc",
       "position": "Lead Software Developer",
       "website": "https://ayo.co",
@@ -43,8 +72,7 @@
       "highlights": [
         "Part of a collaborative agile development team supporting mission-critical web applications and business solutions.",
         "Identify and create solutions to technical challenges from product requirements.",
-        "Designed and built a RESTful API backend using NodeJS, SailsJS, and MongoDB allowing for connections to e-commerce storefronts, admin panels, and 3rd party integrations.",
-        "Created a video transcoding application using Amazon SQS, NodeJS, and ffmpeg to normalize format and add branding to uploaded videos.",
+        "Designed and built a RESTful API backend using NodeJS, SailsJS, and MongoDB allowing for connections to e-commerce storefronts, admin panels, and 3rd party integrations.",        
         "Architected a build server and deployment solution using TeamCity and Amazon Elastic Beanstalk, enabling the team to safely deploy and/or rollback staging or production builds in minutes.",
         "Created a suite of integration and unit tests for all business critical applications.",
         "Build rapid prototypes for new business ideas.",
@@ -111,15 +139,17 @@
       "level": "Master",
       "keywords": [
         "Elixir",
+        "Phoenix",
         "NodeJS",
         "JavaScript",
-        "AngularJS",
         "ReactJS",
+        "Redux",
+        "AngularJS",
         "HTML5",
         "CSS3",
         "Express",
         "jQuery",
-        "ES2015",
+        "ES2016",
         "Git",
         "Docker",
         "Unix",
@@ -145,7 +175,7 @@
       "name": "Cloud",
       "level": "Advanced",
       "keywords": [
-        "Amazon Web Services",
+        "Amazon Web Services",        
         "CloudFront",
         "Heroku"
       ]
