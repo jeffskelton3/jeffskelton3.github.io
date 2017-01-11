@@ -41,15 +41,15 @@
       "endDate": "present",
       "summary": "Spinlist is a music streaming app that allows users to discover, create, and share playlists across any streaming service.",
       "highlights": [
-        "Part of a team responsible for building and maintaining a suite of RESTful API endpoints using Elixir, Phoenix, and PostgresSQL.",                
-        "Helped design and implement a playlist import tool that matched songs in a users playlist to those in other streaming services.",
+        "Built and maintained a suite of RESTful API endpoints using Elixir, Phoenix, and PostgresSQL.",                
+        "Designed and implemented a playlist import tool that matched songs in a users playlist to those in other streaming services.",
         "Built a real-time, websocket based, messaging feature used in the iOS client.",
         "Created an invitation system that placed users into a queue. Administrators could then allow them onto the platform in small, scaleable, intervals.",        
         "Designed and built a daily playlist recommendation system using 3rd party machine learning API's and AWS Lambda."
       ]
     },
     {
-      "company": "HILITE",
+      "company": "HILITE, formerly AYO",
       "position": "Software Developer (contract)",
       "website": "http://hilite.media",
       "startDate": "2016-05-01",
@@ -71,12 +71,11 @@
       "summary": "AYO is a communication platform that enables fans to request personalized videos from their favorite celebrities.",
       "highlights": [
         "Part of a collaborative agile development team supporting mission-critical web applications and business solutions.",
-        "Identify and create solutions to technical challenges from product requirements.",
+        "Identified and created solutions to technical challenges from product requirements.",
         "Designed and built a RESTful API backend using NodeJS, SailsJS, and MongoDB allowing for connections to e-commerce storefronts, admin panels, and 3rd party integrations.",        
         "Architected a build server and deployment solution using TeamCity and Amazon Elastic Beanstalk, enabling the team to safely deploy and/or rollback staging or production builds in minutes.",
         "Created a suite of integration and unit tests for all business critical applications.",
-        "Build rapid prototypes for new business ideas.",
-        "Research and integrate design strategies, product specifications, development schedules, and user expectations into product capabilities."
+        "Built rapid prototypes for new business ideas."        
       ]
     },
     {
@@ -89,8 +88,8 @@
       "highlights": [
         "Part of a globally distributed team responsible for improving and maintaining a web based version of the native application.",
         "Client installations, upgrades, and support.",
-        "Design and build a mobile friendly, JavaScript based SPA client using AngularJS.",
-        "Responsible for managing and maintaining client installations and business applications hosted at Soundminer’s own datacenter.",
+        "Designed and built a mobile friendly, JavaScript based SPA client using AngularJS.",
+        "managed and maintained client installations and business applications hosted at Soundminer’s own datacenter.",
         "Implement customized themes to match client branding and/or custom design requests.",
         "Designed automation scripts and documentation which allowed for a drastic reduction in installation/upgrade times and support requests.",
         "Migrated all source code off of Subversion and onto Git with zero loss of commit history and metadata."
@@ -109,12 +108,12 @@
       ]
     },
     {
-      "company": "SureSale Inc",
+      "company": "SureSale Inc formerly Mota Motors",
       "website": "https://www.suresale.com/",
       "position": "Systems Administrator/Junior Software Developer",
       "startDate": "2008-01-01",
       "endDate": "2013-11-01",
-      "summary": "SureSale (formerly Mota Motors) started as an online automotive marketplace with a focus on private party sellers. In January of 2012 they pivoted to a platform that provides pre owned automotive dealers a way to easily inspect and certify their inventory.",
+      "summary": "SureSale started as an online automotive marketplace with a focus on private party sellers. In January of 2012 they pivoted to a platform that provides pre owned automotive dealers a way to easily inspect and certify their inventory.",
       "highlights": [
         "Developed inventory management application to quickly import vehicles, schedule inspections, certify qualified vehicles, and generate warranties on the fly.",
         "Created a mobile application for our network of inspectors to quickly upload inspection results in the field.",
@@ -149,7 +148,7 @@
         "CSS3",
         "Express",
         "jQuery",
-        "ES2016",
+        "ES6",
         "Git",
         "Docker",
         "Unix",
