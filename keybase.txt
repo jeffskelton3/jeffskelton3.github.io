@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/jeffskelton3
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jeffskelton.net
+  * I am jeffskelton3 (https://keybase.io/jeffskelton3) on keybase.
+  * I have a public key with fingerprint 94FE 6AF3 6634 21BE C3EE  7852 A66B EA0A 685E 3FE1
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101bff1bdfa571fb23761104a6833ebfa1bc2ab5e60ab3e455eb862a9cb35c7385f0a",
+            "fingerprint": "94fe6af3663421bec3ee7852a66bea0a685e3fe1",
+            "host": "keybase.io",
+            "key_id": "a66bea0a685e3fe1",
+            "kid": "0101bff1bdfa571fb23761104a6833ebfa1bc2ab5e60ab3e455eb862a9cb35c7385f0a",
+            "uid": "f3791a9f8a225031cf2250502d8c2d19",
+            "username": "jeffskelton3"
+        },
+        "service": {
+            "hostname": "jeffskelton.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1485051691,
+    "expire_in": 157680000,
+    "prev": "71dc0d2a91927de8c848c19222af2d444d1dd3a1e06f545ef5eb5346783f6529",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMIrAnicrZJbbAxRGMd3SzVdkVZo3CMZWsRuzZn7rEtpiZISPAhaGWdmzllja2Y7
+M7suq4mKa5tItVQqrol4IBHBkxStKm1IStT9waYtXiSCBKHNOtPwxKPz8p1zvv/3
+O//vy7k7apgv4L/ak9X+thfQ/gdtZ+K+dXvHzU5SqqXvoMJJKoqGAqrUkeMqUUOn
+whQNaKBiDFQdQ14EWGVYUQCA5qAgsSxSMQSqxkCVRwINVRZxPI9USWCgrKksr4ms
+xGMaUkEKG2YE2THbMF2ClTmMBIhZQWA5BqhIYxESJZ6BgqAiSBM4j1iMACncbDle
+BTGnQgcVGha5IwdlyN4/9P/Zd3wIh1lRBlDGEmQYnmaBhr3I04wuaYwOZE/oINuE
+WxFRb0EYO1FU6VomS1UHKZJJGBryhut187eq0EQuQcRsy7U0q5IkN7tuzAl7xe6O
+mKfehlTlN0dRDVMn4yQVCWQ7hmVSYUCUmmt4YMBJxBoQZBCk0PaYYSPF8BS8KEg0
+Wd47KEGQItA1WictA5kRdSRpEidpZM8wEDM6x3E60HUWAkQLmOd4hMmIeJYTRInF
+As94TTuoyrQIWyQ+YYQwHSNiQjduI6r6TmvFcJ8/4BuRmeH9M18gO/fP7xufyEqv
+beh7Xn9hQv3F1JhWWu01T65q+xxoDr09c/T6QGdPe/TLyg2TW1eNrom3FeTN6iiZ
+9CknXrvpWcGHIuV2cfm5suZ7+88OFixJF/288Gb51NTc+vIKk66bN/7UzabG9NO6
+xx2Xg0eW5j9p7u7dsr7l56n0wUfFX5qW7SqZnz1wv68wUZabrJ+gHL+WKu6yG/e9
+HuxoqUkduDR7z7eN308oOVeiYydOWvk6s6Uua/BVSfJ814ojtxZ8HEiGDoeqtu5c
+0tD5cHL5y6/H+vP6/Y+47sTYNRnv+k7XzqlKLt6rlb18b+zScl/tnz5z9/wbEXlR
+3pvVPSNn+AOlO0M/Kg5Nmzglf+GL60WlvwDu2UdB
+=hJnU
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jeffskelton3
+
+==================================================================
