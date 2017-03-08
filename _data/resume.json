@@ -38,7 +38,7 @@
       "position": "Software Developer (contract)",
       "website": "https://beta.spinlist.fm",
       "startDate": "2016-05-01",
-      "endDate": "present",
+      "endDate": "2016-12-31",
       "summary": "Spinlist is a music streaming app that allows users to discover, create, and share playlists across any streaming service.",
       "highlights": [
         "Built and maintained a suite of RESTful API endpoints using Elixir, Phoenix, and PostgresSQL.",                
