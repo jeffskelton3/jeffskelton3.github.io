@@ -1,0 +1,107 @@
+---
+layout: elegant
+---
+
+<div id="about" class="detail">
+    <div class="icon"><i class="fs-lg icon-board"></i><span
+            class="mobile-title">About</span></div>
+    <div class="info"><h4 class="title text-uppercase">
+        About</h4>
+        <div class="card card-nested">
+            <div itemprop="description"
+                 class="content mop-wrapper"><p>{{ site.data.resume.basics.summary }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="skills" class="detail">
+    <div class="icon"><i class="fs-lg icon-tools"></i><span
+            class="mobile-title">Skills</span></div>
+    <div class="info"><h4 class="title text-uppercase">Skills</h4>
+        <div class="content">
+            <ul class="list-unstyled clear-margin">
+                {% for skill in site.data.resume.skills %}
+                <li class="card card-nested card-skills">
+                    <div data-toggle="tooltip"
+                         title="{{ skill.level }}"
+                         data-placement="left"
+                         class="skill-level">
+                        <div class="skill-progress {{ skill.level | downcase }}"></div>
+                    </div>
+                    <div class="skill-info"><strong>{{ skill.name }}</strong>
+                        <div class="space-top labels">
+                            {% for keyword in skill.keywords %}
+                            <span class="label label-keyword">{{ keyword }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="work-experience" class="detail">
+    <div class="icon"><i class="fs-lg icon-office"></i><span
+            class="mobile-title">Work Experience</span>
+    </div>
+    <div class="info"><h4 class="title text-uppercase">Work Experience</h4>
+        <ul class="list-unstyled clear-margin">
+            {% for work in site.data.resume.work %}
+            <li class="card card-nested clearfix">
+                <div class="content">
+                    <p class="clear-margin relative">
+                        <strong>{{ work.position }}</strong>,&nbsp;
+                        {% if work.website %}
+                        <a href="{{ work.website }}"
+                           target="_blank">{{ work.company }}</a>
+                        {% else %}
+                            {{ work.company }}
+                        {% endif %}
+                    </p>
+
+                    <p class="text-muted">
+                        <small><span class="space-right">{{ work.startDate | date: "%b, %Y" }} - {{ work.endDate | date: "%b, %Y" }}</span><span>
+                            <!--<i class="icon-clock mr-5"></i>-->
+                            <!--time span goes here-->
+                        </span>
+                        </small>
+                    </p>
+                    <div class="mop-wrapper space-bottom">
+                        <p>{{ work.summary }}</p>
+                    </div>
+                    <ul>
+                        {% for highlight in work.highlights %}
+                        <li class="mop-wrapper"><p>{{ highlight }}</p></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div id="references" class="detail">
+    <div class="icon"><i
+            class="fs-lg icon-thumbs-up"></i><span
+            class="mobile-title">References</span></div>
+    <div class="info"><h4 class="title text-uppercase">
+        References</h4>
+        <div class="content">
+            <ul class="list-unstyled clear-margin">
+                {% for reference in site.data.resume.references %}
+                <li class="card card-nested">{{ reference.name }}
+                    <blockquote class="quote">
+                        <div class="mop-wrapper"><p>{{ reference.reference }}</p>
+                        </div>
+                    </blockquote>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
