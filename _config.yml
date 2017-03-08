@@ -10,6 +10,28 @@ twitter_username: skelton5000
 github_username:  jeffskelton3
 linkedin_username: jeffskelton
 
+reading_time:     true
+words_per_minute: 200
+
+# Owner/author information
+owner:
+  name: Jeff Skelton
+  avatar: avatar.jpg
+  bio: "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
+  email: jeff@jeffskelton.net
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: skelton5000   
+  facebook: 
+  github: jeffskelton3        
+  stackexchange: 
+  linkedin: jeffskelton 
+  instagram:      
+  flickr:         
+  tumblr:         
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:
+
+
 # Amount of post to show on home page
 paginate: 5
 
