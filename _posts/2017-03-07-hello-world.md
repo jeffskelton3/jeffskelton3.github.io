@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: hpstr/post
 title: "Hello World"
 date: 2017-03-07T21:57:15-08:00
 ---

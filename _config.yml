@@ -10,6 +10,9 @@ twitter_username: skelton5000
 github_username:  jeffskelton3
 linkedin_username: jeffskelton
 
+# Amount of post to show on home page
+paginate: 5
+
 # Octopress settings
 # Default extension for new posts and pages
 post_ext: md
