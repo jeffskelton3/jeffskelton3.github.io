@@ -1,30 +1,44 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Jeff Skelton</title>
+    <description>Softare Developer
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 07 Mar 2017 21:18:27 -0800</pubDate>
+    <lastBuildDate>Tue, 07 Mar 2017 21:18:27 -0800</lastBuildDate>
+    <generator>Jekyll v3.4.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Testing</title>
+        <description>
+</description>
+        <pubDate>Tue, 07 Mar 2017 21:13:57 -0800</pubDate>
+        <link>http://localhost:4000/2017/03/07/testing.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/03/07/testing.html</guid>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;p&gt;I love being a software developer. It’s creative, challenging, and fun. Well, most of the time. It’s not fun to be debugging a broken deployment at three in the morning or tracking down some tricky logic bug. Its not challenging or creative to be writing up documentation or sitting in a meeting. In fact a lot this job can be kind of boring. So why do I love it so much?&lt;/p&gt;
+
+&lt;p&gt;In between those moments of drudgery, I get to solve problems. That “aha!” moment when I solve a particularly tough one is hard to beat. My brain becomes flooded with dopamine and for a moment I am convinced of my divinity. That is until I notice that my solution has a few flaws. I come crashing back down to earth and get back to work. Problems are the job and I try to remember that. If it was easy, everyone would do it. It’s not and therefore I have a career.&lt;/p&gt;
+
+&lt;p&gt;Over the years I’ve watched things change tremendously. Frameworks come and go, techniques and languages that were once darlings of the industry have been now cast aside as outdated and terrible. If you would have told me when I started that &lt;em&gt;JavaScript&lt;/em&gt; would be the dominant programming language of 2017 I would have wondered what you were smoking. Yet it is, and I can tell you with absolute certainty that this too shall one day pass.&lt;/p&gt;
+
+&lt;p&gt;With that in mind, it becomes obvious that only those with an enthusiasm for learning will continue to find work. It’s not what you know right now, its how you find the information you need to solve what you don’t. I’m thankful to all the developers that take the time to write down how they solve a challenge. When I need help with a similar one, it will be there. By documenting our successes we all are elevated.&lt;/p&gt;
+
+&lt;p&gt;Its in that spirit that I have decided to join the club. I have challenged myself to write one post a week. That is a sustainable pace in my opinion. I plan to start by writing about technical challenges that I encounter and how I overcome them. I will also be writing tutorials and documentation on subjects that I feel aren’t adequately covered by whats currently out there in the world. Along the way I hope to discover my own voice and perhaps begin to inject some of that into my writing. Wish me luck.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Mar 2017 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2017/03/07/hello-world.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/03/07/hello-world.html</guid>
+        
+        
+      </item>
+    
   </channel>
 </rss>
