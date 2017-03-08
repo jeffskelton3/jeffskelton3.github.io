@@ -32,7 +32,21 @@
       }
     ]
   },
-  "work": [
+  "work": [    
+    {
+      "company": "HILITE, formerly AYO",
+      "position": "Software Developer (contract)",
+      "website": "http://hilite.media",
+      "startDate": "2016-05-01",
+      "endDate": "present",
+      "summary": "In the spring of 2016, AYO pivoted to became HILITE. HILITE is a platform for businesses and brands to collect, curate, and share user generated video content (UGVC).",
+      "highlights": [
+        "Re-purposed a legacy e-commerce based api to support the new business model.",
+        "Created a suite of api endpoints specifically designed for easy 3rd party integrations with strategic partners and brands.",
+        "Designed and implemented a ReactJS and Redux based administrator dashboard. Through this tool, brands can create campaigns, curate content, and share that content to social media.",
+        "Created a video transcoding application using Amazon SQS, NodeJS, and ffmpeg to normalize format and add custom branding to uploaded videos."
+      ]
+    },
     {
       "company": "Spinlist Inc",
       "position": "Software Developer (contract)",
@@ -46,20 +60,6 @@
         "Built a real-time, WebSocket based, messaging feature used in the iOS client.",
         "Created an invitation system that placed users into a queue. Administrators could then allow them onto the platform in small, scalable, intervals.",        
         "Designed and built a daily playlist recommendation system using 3rd party machine learning API's and AWS Lambda."
-      ]
-    },
-    {
-      "company": "HILITE, formerly AYO",
-      "position": "Software Developer (contract)",
-      "website": "http://hilite.media",
-      "startDate": "2016-05-01",
-      "endDate": "present",
-      "summary": "In the spring of 2016, AYO pivoted to became HILITE. HILITE is a platform for businesses and brands to collect, curate, and share user generated video content (UGVC).",
-      "highlights": [
-        "Re-purposed a legacy e-commerce based api to support the new business model.",
-        "Created a suite of api endpoints specifically designed for easy 3rd party integrations with strategic partners and brands.",
-        "Designed and implemented a ReactJS and Redux based administrator dashboard. Through this tool, brands can create campaigns, curate content, and share that content to social media.",
-        "Created a video transcoding application using Amazon SQS, NodeJS, and ffmpeg to normalize format and add custom branding to uploaded videos."
       ]
     },
     {
