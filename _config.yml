@@ -17,7 +17,7 @@ words_per_minute: 200
 owner:
   name: Jeff Skelton
   avatar: avatar.jpg
-  bio: "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
+  bio: "Software developer, musician, burrito enthusiast."
   email: jeff@jeffskelton.net
   # Social networking links used in footer. Update and remove as you like.
   twitter: skelton5000   
@@ -42,8 +42,8 @@ page_ext: html
 
 # Default templates for posts and pages
 # Found in _templates/
-post_layout: post
-page_layout: page
+post_layout: hpstr/post
+page_layout: hpstr/page
 
 # Format titles with titlecase?
 titlecase: true
