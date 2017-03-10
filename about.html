@@ -1,43 +1,15 @@
 ---
-layout: default
+layout: hpstr/page
 title: About
 permalink: /about/
 ---
 
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            {{ site.data.resume.basics.name}}
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <h3>About me</h3>
-            <ul>
-                {% for item in site.data.resume.basics.summary %}
-                <li>{{ item }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <h3>Work Experience</h3>
-            {% for workplace in site.data.resume.work %}
-            <section>
-                <h4><a href="{{workplace.website}}">{{ workplace.company }}</a> <small>{{ workplace.startDate | date: '%B %Y' }} to {{ workplace.endDate | date: '%B %Y' }}</small></h4>
-                <p><strong>Position:</strong> {{ workplace.position }}</p>
-                <p><strong>Description:</strong> {{ workplace.summary }}</p>
-                <ul>
-                    {% for highlight in workplace.highlights %}
-                    <li>{{ highlight }}</li>
-                    {% endfor %}
-                </ul>
-            </section>
-            {% endfor %}
-        </div>
-    </div>
-</div>
+I currently work as a Senior Front End Developer at a financial firm. I specialize in Node.js and all things JavaScript. I have worked with many different technologies over the years including C#, PHP, Java, and Elixir. I am passionate about technology and love to learn and experiment.
+
+I have been a musician for more than half my life and play regularly with my band, Grizzly Derringer. Music and programming are very complimentary as it turns out and I have been able to apply lessons I've learned in one to the other. I approach both with equal passion and I don't see that changing until they put me in the ground.
+
+I live in Burbank with my wife and step daughter and I try to disconnect when I am with them. That part is a work in progress but getting better. Without family, none of the rest of it matters.
+
 
 
 
