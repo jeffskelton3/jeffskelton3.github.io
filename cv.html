@@ -9,15 +9,13 @@ comments: false
 <p>{{ site.data.resume.basics.summary }}</p>
 
 <h4>Skills</h4>
-<ul>
+<ul class="unstyled-list">
     {% for skill in site.data.resume.skills %}
     <li>        
-        {{ skill.name }}
-        <ul>
-            {% for keyword in skill.keywords %}
-            <li class="label label-keyword">{{ keyword }}</li>
-            {% endfor %}
-        </ul>        
+        <h5>{{ skill.name }}</h5>        
+        {% for keyword in skill.keywords %}
+        <label>{{ keyword }}</label>
+        {% endfor %}        
     </li>
     {% endfor %}
 </ul>
@@ -33,7 +31,7 @@ comments: false
             {{ work.company }}
         {% endif %}
     
-        <small>{{ work.startDate | date: "%b, %Y" }} - {{ work.endDate | date: "%b, %Y" }</small>
+        <small>{{ work.startDate | date: "%b, %Y" }} - {{ work.endDate | date: "%b, %Y" }}</small>
                 
         <p>{{ work.summary }}</p>
         
