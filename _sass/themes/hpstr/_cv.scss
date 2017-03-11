@@ -1,0 +1,14 @@
+.cv {
+  h5{
+    margin: 0 0 5px;
+    border-bottom: solid 2px $border-color;
+  }
+  label.cv--skill {
+    display: inline-block;
+    background-color: $success;
+    padding: 2px 5px;
+    color: $body-color;
+    margin-bottom: 2px;
+    font-size: 12px;    
+  }
+}
