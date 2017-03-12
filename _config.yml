@@ -5,7 +5,7 @@ phone_number: (323) 316 8116
 description: > # this means to ignore newlines until "baseurl:"
  Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://jeffskelton.net" # the base hostname & protocol for your site
+url: "https://www.jeffskelton.net" # the base hostname & protocol for your site
 twitter_username: skeltron5000
 github_username:  jeffskelton3
 linkedin_username: jeffskelton
@@ -20,16 +20,11 @@ owner:
   bio: "Software developer, musician, burrito enthusiast."
   email: jeff@jeffskelton.net
   # Social networking links used in footer. Update and remove as you like.
-  twitter: skelton5000   
+  twitter: skeltron5000   
   facebook: 
   github: jeffskelton3        
-  stackexchange: 
+  stackexchange: jeffskelton3
   linkedin: jeffskelton 
-  instagram:      
-  flickr:         
-  tumblr:         
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:
 
 
 # Amount of post to show on home page
