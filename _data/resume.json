@@ -136,11 +136,10 @@
     {
       "name": "Web Development",
       "level": "Master",
-      "keywords": [
-        "Elixir",
-        "Phoenix",
+      "keywords": [        
         "NodeJS",
         "JavaScript",
+        "C#",
         "ReactJS",
         "Redux",
         "AngularJS",
@@ -149,11 +148,12 @@
         "Express",
         "jQuery",
         "ES6",
+        "Elixir",
+        "Phoenix",
         "Git",
         "Docker",
         "Unix",
-        "Linux",
-        "C#",
+        "Linux",        
         "PHP",
         ".NET",
         "Apache"

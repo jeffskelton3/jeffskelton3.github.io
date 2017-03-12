@@ -1,0 +1,77 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include hpstr/head.html %}
+</head>
+
+<body id="page" class="cv">
+
+{% include hpstr/browser-upgrade.html %}
+{% include hpstr/navigation.html %}
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        <h1 class="entry-title">Jeff Skelton</h1>        
+        <h2>{ Software Developer }</h2>
+        <ul class="unstyled-list inline-list">
+          <li><i class="fa fa-phone"></i> {{ site.data.resume.basics.phone }}</li>
+          <li> | </li>
+          <li><a href="mailto:{{ site.data.resume.basics.email }}"></a><i class="fa fa-envelope"></i> {{ site.data.resume.basics.email }}</li>
+        </ul>
+        <ul class="unstyled-list inline-list">          
+          {% if site.owner.twitter %}<li>
+            <a href="https://twitter.com/{{ site.owner.twitter }}" target="_blank">
+              <span class="fa-stack">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+              </span>
+            </a>					
+          </li>{% endif %}
+          {% if site.owner.facebook %}<li>
+            <a href="https://facebook.com/{{ site.owner.facebook }}" target="_blank">
+              <span class="fa-stack">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+              </span>
+            </a>					
+          </li>{% endif %}				
+          {% if site.owner.linkedin %}<li>
+            <a href="https://linkedin.com/in/{{ site.owner.linkedin }}" target="_blank">
+              <span class="fa-stack">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x"></i>
+              </span>
+            </a>										
+          </li>{% endif %}
+          {% if site.owner.github %}<li>
+            <a href="https://github.com/{{ site.owner.github }}" target="_blank">
+              <span class="fa-stack">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x"></i>
+              </span>
+            </a>										
+          </li>{% endif %}				
+        </ul>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      {{ content }}      
+    </div><!-- /.entry-content -->    
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    {% include hpstr/footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+{% include hpstr/scripts.html %}          
+
+</body>
+</html>
