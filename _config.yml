@@ -3,7 +3,7 @@ title: Jeff Skelton
 email: jeff@jeffskelton.net
 phone_number: (323) 316 8116
 description: > # this means to ignore newlines until "baseurl:"
-  Softare Developer
+ Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jeffskelton.net" # the base hostname & protocol for your site
 twitter_username: skelton5000

@@ -78,7 +78,6 @@ body {
 	h2 {
 		margin: 0;
 		@include font-rem(18);
-		text-transform: uppercase;
 		color: lighten($base-color,40);
 
 		@media #{$medium} {
@@ -108,6 +107,7 @@ body {
 	}
 
 	h1 {
+		font-family: 'Playfair Display', serif;
 		margin: 10px;
 		font-weight: 700;
 		margin: 10px 60px;
@@ -121,9 +121,8 @@ body {
 
 	h2 {
 		margin: 0;
-		color: #fff;
-		text-transform: uppercase;
-
+		color: #fff;		
+		font-family: $code-font;
 		@media #{$medium} {
 			a {
 				color: #fff;
@@ -132,6 +131,9 @@ body {
 	}
 
 	p {
+		color: #fff;
+	}
+	ul li a{
 		color: #fff;
 	}
 }
@@ -218,7 +220,6 @@ body {
 
 .entry-meta {
 	@include font-rem(12);
-	text-transform: uppercase;
 	color: lighten($base-color,60);
 
 	a {
