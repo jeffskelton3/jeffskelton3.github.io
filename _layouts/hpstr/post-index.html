@@ -16,7 +16,7 @@
   {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
   {% if page.image.feature %}
     <div class="entry-image">
-      <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+      <img src="{{ "/images/" | append: page.image.feature | prepend: site.baseurl }}" alt="{{ page.title }}">
     </div><!-- /.entry-image -->
   {% endif %}
   <div class="header-title">
@@ -65,7 +65,7 @@
 					</a>										
 				</li>{% endif %}				
       </ul>
-			<a href="{{ "/cv" | prepend: site.url }}" class="btn btn-info">View CV</a>
+			<a href="{{ "/cv" | prepend: site.baseurl }}" class="btn btn-info">View CV</a>
     </div><!-- /.header-title-wrap -->
   </div><!-- /.header-title -->
 </div><!-- /.entry-header -->
