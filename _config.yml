@@ -1,7 +1,7 @@
 # Site settings
 title: Jeff Skelton
 email: jeff@jeffskelton.net
-phone_number: (323) 316 8116
+phone_number: (323) 863 6107
 description: > # this means to ignore newlines until "baseurl:"
  Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -26,6 +26,7 @@ owner:
   stackexchange: jeffskelton3
   linkedin: jeffskelton 
 
+post_image_directory: /images/posts
 
 # Amount of post to show on home page
 paginate: 5

@@ -4,8 +4,8 @@
     "label": "Software Developer",
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/266/2e7/140dec9.jpg",
     "email": "jeff@jeffskelton.net",
-    "phone": "(323) 316-8116",
-    "website": "https://jeffskelton.net",
+    "phone": "(323) 863 6107",
+    "website": "https://www.jeffskelton.net",
     "summary": "Jeff is a creative and professional developer with over 9 years in the field. Skilled in all phases of the software development lifecycle, he writes clean, readable, testable code and adheres to DRY principles. Jeff has experience with many languages, including Elixir, PHP, and C#, but is most passionate about JavaScript and NodeJS. He uses his excellent written and oral communication skills to mentor others in his spare time.",
     "location": {
       "address": "635 N Rosemary Ln",
@@ -38,7 +38,7 @@
       "position": "Software Developer (contract)",
       "website": "http://hilite.media",
       "startDate": "2016-05-01",
-      "endDate": "present",
+      "endDate": "2016-4-17",
       "summary": "In the spring of 2016, AYO pivoted to became HILITE. HILITE is a platform for businesses and brands to collect, curate, and share user generated video content (UGVC).",
       "highlights": [
         "Re-purposed a legacy e-commerce based api to support the new business model.",
