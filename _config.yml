@@ -53,6 +53,8 @@ draft_template: draft
 markdown: kramdown
 highlighter: rouge
 exclude: 
+  - ".vscode"
+  - ".python-version"
   - "*.less"
   - "*.sublime-project"
   - "*.sublime-workspace"
