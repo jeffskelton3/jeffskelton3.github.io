@@ -2,6 +2,7 @@
 layout: hpstr/post
 title: "Be Clear, Not Clever"
 date: 2017-03-21T11:24:47-07:00
+tags: [programming]
 ---
 
 > "Write code that is easy to delete, not easy to extend." - [Programming Is Terrible](http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)

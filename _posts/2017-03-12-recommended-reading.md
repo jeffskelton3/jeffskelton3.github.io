@@ -2,6 +2,7 @@
 layout: hpstr/post
 title: "Recommended Reading"
 date: 2017-03-12T22:42:33-07:00
+tags: [programming, books]
 ---
 
 _Last update: March 2017_

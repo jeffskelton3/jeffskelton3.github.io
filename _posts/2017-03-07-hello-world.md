@@ -2,6 +2,7 @@
 layout: hpstr/post
 title: "Hello World"
 date: 2017-03-07T21:57:15-08:00
+tags: [programming]
 ---
 
 I love being a software developer. It's a creative, challenging, and fun profession. When done well, it's an art form in the same way a beautiful building or finely crafted piece of furniture can be. To a creative, slightly nerdy guy like me, its a great fit. I feel fortunate to have stumbled into it. 
