@@ -7,3 +7,4 @@ _drafts
 .DS_Store
 .deploy
 .vscode
+npm-debug.log
