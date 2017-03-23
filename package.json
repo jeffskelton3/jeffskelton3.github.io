@@ -1,0 +1,20 @@
+{
+  "name": "jeffskelton.net",
+  "version": "1.0.0",
+  "description": "",  
+  "scripts": {
+    "start": "bundle exec jekyll serve --incremental",
+    "build": "bundle exec jekyll build",
+    "deploy": "npm run build && bundle exec octopress deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffskelton3/jeffskelton3.github.io.git"
+  },
+  "author": "Jeff Skelton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffskelton3/jeffskelton3.github.io/issues"
+  },
+  "homepage": "https://github.com/jeffskelton3/jeffskelton3.github.io#readme"
+}
