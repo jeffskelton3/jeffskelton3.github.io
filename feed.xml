@@ -4,10 +4,10 @@
     <title>Jeff Skelton</title>
     <description>Software Developer
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 May 2017 22:28:39 -0700</pubDate>
-    <lastBuildDate>Mon, 15 May 2017 22:28:39 -0700</lastBuildDate>
+    <link>https://www.jeffskelton.net/</link>
+    <atom:link href="https://www.jeffskelton.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 15 May 2017 22:40:55 -0700</pubDate>
+    <lastBuildDate>Mon, 15 May 2017 22:40:55 -0700</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -84,8 +84,8 @@
 &lt;p&gt;It’s a fact that the code we write today will come back to haunt us later. With every line comes a cost. It’s best to avoid writing any more than necessary. Code that doesn’t exist cannot break and cannot hurt us. When writing it, be clear, be concise, and avoid being clever.&lt;/p&gt;
 </description>
         <pubDate>Tue, 21 Mar 2017 11:24:47 -0700</pubDate>
-        <link>http://localhost:4000/2017/03/21/be-clear-not-clever.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/03/21/be-clear-not-clever.html</guid>
+        <link>https://www.jeffskelton.net/2017/03/21/be-clear-not-clever.html</link>
+        <guid isPermaLink="true">https://www.jeffskelton.net/2017/03/21/be-clear-not-clever.html</guid>
         
         <category>programming</category>
         
@@ -124,8 +124,8 @@ JavaScript is, well, &lt;em&gt;weird&lt;/em&gt;. It’s hugely expressive and po
 &lt;p&gt;Ok, this one is not for everyone. Only developers interested in working with Elixir and the Phoenix framework should read. I included it because it’s simply the best written technical guide I’ve ever used. The authors provide a real world application to build that teaches the essential concepts of the Phoenix framework. They dumb nothing down. By the time I finished this book I felt I could fully grasp this technology and was able to directly apply it to several client projects I was working on. I rarely find this to be the case with most books of this stripe. I am rooting for Elixir to succeed and become widely adopted. If it does it will be because of efforts like this book that make it easy to onboard new developers.&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Mar 2017 22:42:33 -0700</pubDate>
-        <link>http://localhost:4000/2017/03/12/recommended-reading.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/03/12/recommended-reading.html</guid>
+        <link>https://www.jeffskelton.net/2017/03/12/recommended-reading.html</link>
+        <guid isPermaLink="true">https://www.jeffskelton.net/2017/03/12/recommended-reading.html</guid>
         
         <category>programming</category>
         
@@ -148,8 +148,8 @@ JavaScript is, well, &lt;em&gt;weird&lt;/em&gt;. It’s hugely expressive and po
 
 </description>
         <pubDate>Tue, 07 Mar 2017 21:57:15 -0800</pubDate>
-        <link>http://localhost:4000/2017/03/07/hello-world.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/03/07/hello-world.html</guid>
+        <link>https://www.jeffskelton.net/2017/03/07/hello-world.html</link>
+        <guid isPermaLink="true">https://www.jeffskelton.net/2017/03/07/hello-world.html</guid>
         
         <category>programming</category>
         
